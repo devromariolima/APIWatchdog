@@ -42,7 +42,6 @@ No arquivo monitor.py, configure as URLs das APIs que você deseja monitorar:
    ` 'https://api2.example.com/status']`
 
 
-
 ## Requisitos
 
 - Python 3.x
