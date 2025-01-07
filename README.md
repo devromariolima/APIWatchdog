@@ -1,7 +1,7 @@
 # APIWatchdog
 
 <p align="center">
-  <img src="https://i.imgur.com/U7Lgfls.png" alt="GIF" width="300" height="200">
+  <img src="https://i.imgur.com/U7Lgfls.png" alt="GIF" width="300" height="300">
 </p>
 
 ## APIWatchdog
