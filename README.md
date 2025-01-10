@@ -26,7 +26,7 @@ Siga as instruções para dar um nome e um identificador ao bot.
 O BotFather fornecerá um token de API. Esse token será usado para autenticar o seu bot. Mantenha esse token seguro.
 
 <p align="center">
-  <img src="https://i.imgur.com/U7Lgfls.png" alt="GIF" width="300" height="300">
+  <img src="https://i.imgur.com/MuaNMFo.png" alt="GIF" width="300" height="300">
 </p>
 
 2. Configurar o Token do Bot e IDs
