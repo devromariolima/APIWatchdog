@@ -30,10 +30,36 @@ Inicie uma conversa com o BotFather e use o comando /newbot para criar um novo b
 Siga as instruções para dar um nome e um identificador ao bot.
 O BotFather fornecerá um token de API. Esse token será usado para autenticar o seu bot. Mantenha esse token seguro.
 
--`(OBS)` Lembre-se de salvar essse token.
+- `(Nota)`: Certifique-se de salvar o token gerado.
+
+- Também será necessário um chat_id, onde o bot enviará as mensagens de alerta caso as APIs monitoradas fiquem inoperantes.
+
+- Você poderá obter o chat_id através do seguinte link: https://api.telegram.org/bot<SeuTokenAqui>/getUpdates
+
+- `(Nota)`: Pode levar algum tempo para que os dados estejam disponíveis após a criação do bot.
+
+- Informe o token do seu bot no local indicado (<SeuTokenAqui>) e abra o link no navegador.
+
+- Isso permitirá que você obtenha os chat_id dos grupos no Telegram.
+
+# Exemplo de CHAT ID.
+
+<p align="center">
+  <img src="https://i.imgur.com/MiY6dEU.png" alt="GIF" width="300" height="300">
+</p>
+
+- `(Nota)`: O chat_id ficará visível nesta resposta, destacado acima.
+
+- `(Nota)`: O bot precisa ser adicionado ao grupo no qual você deseja que os alertas sejam enviados.
+
+- Você pode testar o envio de mensagens utilizando o seguinte link, substituindo as informações indicadas:
+
+- `https://api.telegram.org/bot<SeuTokenAqui>/sendMessage?chat_id=<IDdoGrupoAqui>&text=SuaMensagemAqui`
+
+- Informe a mensagem desejada para o teste no parâmetro &text=SuaMensagemAqui.
 
 
-2. Configurar o Token do Bot e IDs
+2. Configurar o Token do Bot e CHAT IDs
 No arquivo APIWatchdog.py, adicione as seguintes informações:
 
 TOKEN: O token do bot fornecido pelo BotFather.
@@ -54,6 +80,15 @@ No arquivo APIWatchdog.py, configure as URLs das APIs que você deseja monitorar
    ` 'https://api2.example.com/status']`
 
 
+## Resultado
+
+ - Após a configuração, caso alguma API fique inoperante, você receberá os alertas no grupo configurado. É possível adicionar várias APIs para monitoramento.
+
+ <p align="center">
+  <img src="https://i.imgur.com/qVAI17Y.png" alt="GIF" width="300" height="300">
+</p>
+
+
 ## Requisitos
 
 - Python 3.x
@@ -64,4 +99,4 @@ No arquivo APIWatchdog.py, configure as URLs das APIs que você deseja monitorar
 ## Uso
 
 - Execute o script principal para iniciar o monitoramento:
-- monitor_api.py
+- APIWatchdog.py
