@@ -41,7 +41,7 @@ CHAT_ID: O ID do chat ou grupo do Telegram onde as notificações serão enviada
 `CHAT_ID = 'seu_chat_id_aqui'`
 
 3. Adicionar URLs de APIs para Monitoramento
-No arquivo monitor.py, configure as URLs das APIs que você deseja monitorar:
+No arquivo APIWatchdog.py, configure as URLs das APIs que você deseja monitorar:
 
 # APIWatchdog.py
 
