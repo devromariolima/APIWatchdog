@@ -42,4 +42,4 @@ if __name__ == "__main__":
     monitor_apis()
 
 # executar o Script
-# python3 monitor_api.py
+# python3 APIWatchdog.py
