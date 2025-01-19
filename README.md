@@ -45,7 +45,7 @@ O BotFather fornecerá um token de API. Esse token será usado para autenticar o
 # Exemplo de CHAT ID.
 
 <p align="center">
-  <img src="https://i.imgur.com/MiY6dEU.png" alt="GIF" width="300" height="300">
+  <img src="https://i.imgur.com/MiY6dEU.png" alt="GIF" width="300" height="200">
 </p>
 
 - `(Nota)`: O chat_id ficará visível nesta resposta, destacado acima.
