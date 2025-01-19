@@ -19,7 +19,7 @@
 ## Configuração do BotFather.
 
 <p align="center">
-  <img src="https://i.imgur.com/MuaNMFo.png" alt="GIF" width="300" height="300">
+  <img src="https://i.imgur.com/cTozo6e.png" alt="GIF" width="300" height="300">
 </p>
 
 
