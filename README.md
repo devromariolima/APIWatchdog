@@ -16,7 +16,12 @@
 - Notifica via Telegram quando a API monitora está inoperante ou com problemas de conectividade.
 - Fácil configuração para adicionar ou remover APIs monitoradas.
 
-## Configuração
+## Configuração do BotFather.
+
+<p align="center">
+  <img src="https://i.imgur.com/MuaNMFo.png" alt="GIF" width="300" height="300">
+</p>
+
 
 1. Criar um Bot no Telegram
 - Você precisa de um token de acesso ao bot do Telegram, que pode ser obtido seguindo estes passos:
@@ -25,9 +30,6 @@ Inicie uma conversa com o BotFather e use o comando /newbot para criar um novo b
 Siga as instruções para dar um nome e um identificador ao bot.
 O BotFather fornecerá um token de API. Esse token será usado para autenticar o seu bot. Mantenha esse token seguro.
 
-<p align="center">
-  <img src="https://i.imgur.com/MuaNMFo.png" alt="GIF" width="300" height="300">
-</p>
 
 2. Configurar o Token do Bot e IDs
 No arquivo APIWatchdog.py, adicione as seguintes informações:
