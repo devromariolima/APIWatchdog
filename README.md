@@ -30,6 +30,8 @@ Inicie uma conversa com o BotFather e use o comando /newbot para criar um novo b
 Siga as instruções para dar um nome e um identificador ao bot.
 O BotFather fornecerá um token de API. Esse token será usado para autenticar o seu bot. Mantenha esse token seguro.
 
+-`(OBS)` Lembre-se de salvar essse token.
+
 
 2. Configurar o Token do Bot e IDs
 No arquivo APIWatchdog.py, adicione as seguintes informações:
