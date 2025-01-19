@@ -22,12 +22,12 @@ Siga as instruções para dar um nome e um identificador ao bot.
 O BotFather fornecerá um token de API. Esse token será usado para autenticar o seu bot. Mantenha esse token seguro.
 
 2. Configurar o Token do Bot e IDs
-No arquivo monitor_api.py, adicione as seguintes informações:
+No arquivo APIWatchdog.py, adicione as seguintes informações:
 
 TOKEN: O token do bot fornecido pelo BotFather.
 CHAT_ID: O ID do chat ou grupo do Telegram onde as notificações serão enviadas.
 
-# monitor_api.py
+# APIWatchdog.py
 
 `TOKEN = 'seu_token_aqui'`
 `CHAT_ID = 'seu_chat_id_aqui'`
@@ -35,7 +35,7 @@ CHAT_ID: O ID do chat ou grupo do Telegram onde as notificações serão enviada
 3. Adicionar URLs de APIs para Monitoramento
 No arquivo monitor.py, configure as URLs das APIs que você deseja monitorar:
 
-# monitor_api.py
+# APIWatchdog.py
 
 `API_URLS = [`
    ` 'https://api1.example.com/health',`
@@ -52,4 +52,4 @@ No arquivo monitor.py, configure as URLs das APIs que você deseja monitorar:
 ## Uso
 
 - Execute o script principal para iniciar o monitoramento:
-- monitor_api.py
+- APIWatchdog.py
