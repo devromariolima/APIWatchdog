@@ -1,5 +1,9 @@
 # APIWatchdog
 
+<p align="center">
+  <img src="https://i.imgur.com/U7Lgfls.png" alt="GIF" width="300" height="300">
+</p>
+
 ## APIWatchdog
 
 - APIWatchdog é uma automação em Python que monitora o status de APIs e envia notificações ao seu bot do Telegram quando uma API fica inoperante. O objetivo é alertar rapidamente sobre qualquer indisponibilidade, permitindo ações rápidas para restaurar o serviço.
@@ -20,6 +24,10 @@ Abra o aplicativo do Telegram e procure por BotFather.
 Inicie uma conversa com o BotFather e use o comando /newbot para criar um novo bot.
 Siga as instruções para dar um nome e um identificador ao bot.
 O BotFather fornecerá um token de API. Esse token será usado para autenticar o seu bot. Mantenha esse token seguro.
+
+<p align="center">
+  <img src="https://i.imgur.com/MuaNMFo.png" alt="GIF" width="300" height="300">
+</p>
 
 2. Configurar o Token do Bot e IDs
 No arquivo APIWatchdog.py, adicione as seguintes informações:
@@ -52,4 +60,4 @@ No arquivo monitor.py, configure as URLs das APIs que você deseja monitorar:
 ## Uso
 
 - Execute o script principal para iniciar o monitoramento:
-- APIWatchdog.py
+- monitor_api.py
