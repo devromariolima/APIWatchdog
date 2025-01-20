@@ -34,7 +34,7 @@ O BotFather fornecerá um token de API. Esse token será usado para autenticar o
 
 - Também será necessário um chat_id, onde o bot enviará as mensagens de alerta caso as APIs monitoradas fiquem inoperantes.
 
-- Você poderá obter o chat_id através do seguinte link: https://api.telegram.org/bot<SeuTokenAqui>/getUpdates
+- Você poderá obter o chat_id através do seguinte link: https://api.telegram.org/bot(SeuTokenAqui)/getUpdates
 
 - `(Nota)`: Pode levar algum tempo para que os dados estejam disponíveis após a criação do bot.
 
