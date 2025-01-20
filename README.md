@@ -7,7 +7,7 @@
 ## APIWatchdog
 
 - APIWatchdog é uma automação em Python que monitora o status de APIs e envia notificações ao seu bot do Telegram quando uma API fica inoperante. O objetivo é alertar rapidamente sobre qualquer indisponibilidade, permitindo ações rápidas para restaurar o serviço.
--Este projeto implementa uma automação em Python para monitorar a disponibilidade de APIs e enviar notificações via Telegram quando uma API monitorada está inoperante. A integração com o Telegram é feita utilizando um bot configurado pelo BotFather.
+- Este projeto implementa uma automação em Python para monitorar a disponibilidade de APIs e enviar notificações via Telegram quando uma API monitorada está inoperante. A integração com o Telegram é feita utilizando um bot configurado pelo BotFather.
 
 ## Funcionalidades
 
