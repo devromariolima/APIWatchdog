@@ -99,4 +99,4 @@ No arquivo APIWatchdog.py, configure as URLs das APIs que você deseja monitorar
 ## Uso
 
 - Execute o script principal para iniciar o monitoramento:
-- APIWatchdog.py
+- python3 APIWatchdog.py
