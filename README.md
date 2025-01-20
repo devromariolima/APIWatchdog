@@ -85,7 +85,7 @@ No arquivo APIWatchdog.py, configure as URLs das APIs que você deseja monitorar
  - Após a configuração, caso alguma API fique inoperante, você receberá os alertas no grupo configurado. É possível adicionar várias APIs para monitoramento.
 
  <p align="center">
-  <img src="https://i.imgur.com/qVAI17Y.png" alt="GIF" width="650" height="101">
+  <img src="https://i.imgur.com/qVAI17Y.png" alt="GIF" width="650" height="90">
 </p>
 
 
